@@ -19,7 +19,7 @@
                     <nav class="menu">
                         <ul class="menu__list">
                             <li class="menu__list-item">
-                                <a class="menu__list-link menu__list-link--active" href="about.html" target="_blank">Обо мне</a>
+                                <a class="menu__list-link" href="about.html" target="_blank">Обо мне</a>
                             </li>
                             <li class="menu__list-item">
                                 <a class="menu__list-link" href="gallery.html" target="_blank">Галерея</a>
@@ -35,7 +35,7 @@
                                 <a class="menu__list-link" href="order.html" target="_blank">Заказ</a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="contacts.html" target="_blank">Контакты</a>
+                                <a class="menu__list-link menu__list-link--active" href="contacts.html" target="_blank">Контакты</a>
                             </li>
                         </ul>
                     </nav>
@@ -70,36 +70,82 @@
 
         <main class="main">
 
-            <section class="about">
-                <div class="about__prev">
-                    <div class="container">
-                        <h2 class="about__prev-title">
-                            Обо мне
-                        </h2>
-                    </div>
-                </div>
-                <div class="about__content">
-                    <div class="container">
-                        <h3 class="about__title">
-                            Давай познакомимся?
-                        </h3>
-                            <div class="about__text">
-                                <p>
-                                    Меня зовут Аня, мне 22 года и я проживаю в Уфе. 
-                                </p>
-                                <p>
-                                    Увлекаюсь цифровой иллюстрацией с 2021 года.
-                                </p>
+            <div class="order">
+                <div class="order__inner">
+                    <form action="" class="order__form order__form1">
+                        <div class="form__item">
+                            <ul class="switcher">
+                                <li class="swither__input">
+                                    <input type="radio" name="order-name" id="order-form1" class="order-name" value="order-form1">
+                                </li>
+                                <label for="order-form1">Эскиз</label>
+                                <li class="swither__input">
+                                    <input type="radio" name="order-name" id="order-form2" class="order-name" value="order-form2">
+                                </li>
+                                <label for="order-form1">Реализм</label>
+                                <li class="swither__input">
+                                    <input type="radio" name="order-name" id="order-form3" class="order-name" value="order-form3">
+                                </li>
+                                <label for="order-form1">Cartoon</label>
+                                <li class="swither__input">
+                                    <input type="radio" name="order-name" id="order-form4" class="order-name" value="order-form4">
+                                </li>
+                                <label for="order-form1">Свободный стиль</label>
+                            </ul>
+                        </div>
+                        <div class="form__item">
+                            <h2 class="rangering">
+                                Сколько человек будет на портрете?
+                            </h2>
+                            <input type="range" name="number" id="num" step="1" min="1" max="5" value="2">
+                            <output id="volume" for="number">2</output>
+                            <h2 class="rangering">
+                                Дополнительно
+                            </h2>
+                            <div class="option__item">
+                                <input type="checkbox" name="option1" id="option1" class="option">
+                                <label for="option1" class="checkmark"></label>
+                                <label for="option1">Животные</label>
                             </div>
-                    </div>
-                </div>
-                <div class="about__popup">
-                    <a class="about_popup-play" data-fancybox href="https://youtu.be/pO-lz8HQvRA">
-                        <img class="about-popup-imgbtn" src="images/play-button.svg" alt="play button">
-                    </a>
-                </div>
-            </section>
 
+                            <div class="option__item">
+                                <input type="checkbox" name="option2" id="option2" class="option">
+                                <label for="option1" class="checkmark"></label>
+                                <label for="option1">Усложненные объекты</label>
+                            </div>
+
+                            <div class="option__item">
+                                <input type="checkbox" name="option3" id="option3" class="option">
+                                <label for="option1" class="checkmark"></label>
+                                <label for="option1">Детальность фона</label>
+                            </div>
+
+                            <div class="option__item">
+                                <input type="checkbox" name="option4" id="option4" class="option">
+                                <label for="option1" class="checkmark"></label>
+                                <label for="option1">Более 2-х ваших правок</label>
+                            </div>
+                        </div>
+                    </form>
+                    <form action="" class="order__form order__form2">
+                        <div class="form__item">
+                            <h2 class="rangering">Ваш заказ</h2>
+                            <div>
+                                <span>блабла</span>
+                                <output class="order" id="order-f1">&#8212;</output>
+                            </div>
+                            <div>
+                                <span>ещё блабла</span>
+                                <output class="order" id="order-f2">&#8212;</output>
+                            </div>
+                            <div>
+                                <span>Дополнительно</span>
+                                <output class="order" id="order-f3">&#8212;</output>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
         </main>
 

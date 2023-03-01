@@ -19,26 +19,31 @@
                     <nav class="menu">
                         <ul class="menu__list">
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">Обо мне</a>
+                                <a class="menu__list-link" href="about.html" target="_blank">Обо мне</a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">Галерея</a>
+                                <a class="menu__list-link" href="gallery.html" target="_blank">Галерея</a>
                             </li>
                         </ul>
                     </nav>
-                    <a class="logo" href="#">
+                    <a class="logo" href="index.html">
                         <img src="images/logo.png" alt="logo">
                     </a>
                     <nav class="menu">
                         <ul class="menu__list">
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">Блог</a>
+                                <a class="menu__list-link" href="order.html" target="_blank">Заказ</a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">Контакты</a>
+                                <a class="menu__list-link" href="contacts.html" target="_blank">Контакты</a>
                             </li>
                         </ul>
                     </nav>
+                    <button class="header__btn-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
                     <button class="header__btn">
                         <img src="images/icon_menu.svg" alt="icon menu">
                     </button>
@@ -74,39 +79,255 @@
                                 <img class="top__slider-img" src="images/content/slider-img.png" alt="images">
                                 <div class="top__slider-info">
                                     <h2 class="top__slider-title">
-                                        Цель картины — не воспроизвести реальность, а интерпретировать её, улучшить, показать её своими глазами.
+                                        Чувствуй себя как дома
                                     </h2>
                                     <p class="top__slider-text">
-                                        
+                                         
                                     </p>
                                 </div>
                             </div>
-                            <div class="top__slider-item">
-                                <img class="top__slider-img" src="images/content/slider-img.png" alt="images">
-                                <div class="top__slider-info">
-                                    <h2 class="top__slider-title">
-                                        Если внутренний голос говорит вам, что вы не можете рисовать — рисуйте как можно больше, тогда этот голос затихнет.
-                                    </h2>
-                                    <p class="top__slider-text">
-                                        Винсент Ван Гог
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="top__slider-item">
-                                <img class="top__slider-img" src="images/content/slider-img.png" alt="images">
-                                <div class="top__slider-info">
-                                    <h2 class="top__slider-title">
-                                        Картина – это не пропорции и степень реалистичности, это, прежде всего, выбор – выбор ракурса, выбор сюжета и выбор подачи. Но самое главное – выбор истории, которую она заставляет зрителя пережить.
-                                    </h2>
-                                    <p class="top__slider-text">
-                                        
-                                    </p>
-                                </div>
-                            </div>
+                            <!-- <div class="top__slider-item"> -->
+                                <!-- <img class="top__slider-img" src="images/content/slider-img.png" alt="images"> -->
+                                <!-- <div class="top__slider-info"> -->
+                                    <!-- <h2 class="top__slider-title"> -->
+                                        <!-- Посмотри галерею и тебе не придется думать о том что подарить близким -->
+                                    <!-- </h2> -->
+                                    <!-- <p class="top__slider-text"> -->
+                                         
+                                    <!-- </p> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+                            <!-- <div class="top__slider-item"> -->
+                                <!-- <img class="top__slider-img" src="images/content/slider-img.png" alt="images"> -->
+                                <!-- <div class="top__slider-info"> -->
+                                    <!-- <h2 class="top__slider-title"> -->
+                                        <!-- Через иллюстрацию вопрощу всё что ты захочешь -->
+                                    <!-- </h2> -->
+                                    <!-- <p class="top__slider-text"> -->
+                                         
+                                    <!-- </p> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
                         </div>
                     </div>
             </section>
+            <section class="new-collection">
+                <div class="container-fluid">
+                    <h3 class="new-collection__title">
+                        Что я умею?
+                    </h3>
+                    <p class="new-collection__text">
+                        Моя работа может быть выполнена в разных стилях
+                    </p>
+                    <div class="collection">
+                        <a class="collection__item" href="gallery.html" target="_blank">
+                            <img class="collection__images" src="images/content/collection-1.jpg" alt="">
+                            <div class="collection__info">
+                                <h6 class="collection__info-title">
+                                    Реализм
+                                </h6>
+                                <p class="collection__info-text">
+                                    Работа максимально реалистична
+                                </p>
+                            </div>
+                        </a>
 
+                        <a class="collection__item" href="gallery.html" target="_blank">
+                            <img class="collection__images" src="images/content/collection-2.jpg" alt="">
+                            <div class="collection__info">
+                                <h6 class="collection__info-title">
+                                    Cartoon
+                                </h6>
+                                <p class="collection__info-text">
+                                    Тебе было интересно, как бы ты выглядел в мультике?
+                                </p>
+                            </div>
+                        </a>
+
+                        <a class="collection__item" href="gallery.html" target="_blank">
+                            <img class="collection__images" src="images/content/collection-3.jpg" alt="">
+                            <div class="collection__info">
+                                <h6 class="collection__info-title">
+                                    Свободный стиль
+                                </h6>
+                                <p class="collection__info-text">
+                                    Что-то между Реализмом и Cartoon
+                                </p>
+                            </div>
+                        </a>
+
+                        <a class="collection__item" href="gallery.html" target="_blank">
+                            <img class="collection__images" src="images/content/collection-4.jpg" alt="">
+                            <div class="collection__info">
+                                <h6 class="collection__info-title">
+                                    Animals
+                                </h6>
+                                <p class="collection__info-text">
+                                    Домашних животных никогда не бывает много
+                                </p>
+                            </div>
+                        </a>
+
+                        <a class="collection__item" href="gallery.html" target="_blank">
+                            <img class="collection__images" src="images/content/collection-5.jpg" alt="">
+                            <div class="collection__info">
+                                <h6 class="collection__info-title">
+                                    Масло
+                                </h6>
+                                <p class="collection__info-text">
+                                    Никому не говори, что это написано не маслом!
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="decor">
+                <div class="container">
+                    <h2 class="decor__title">
+                        Сделай подарок себе или близким
+                    </h2>
+                    <p class="decor__text">
+                        Цифровая иллюстрация - прекрасный подарок, который сохранится на долгие годы. Более того, у тебя будет возможность сделать печать на холсте и у тебя будет полноценая картина, которую можно выпустить неограниченным тиражом!
+                    </p>
+                </div>
+            </section>
+            <section class="works-path">
+                <div class="container">
+                    <h3 class="works-path__title">
+                        Этапы
+                    </h3>
+                    <div class="works-path__items">
+                        <div class="works-path__items-box">
+                            <div class="works-path__item works-path__item--consultation">
+                                <img class="works-path__item-img" src="images/graphic-tool.svg" alt="icon">
+                                <h6 class="works-path__item-title">Сделай заказ</h6>
+                                <p class="works__item-text">
+                                    Следует определиться с типом работы и сделать соответствующий заказ в разделе "Заказ" 
+                                </p>
+                            </div>
+                            <div class="works-path__item works-path__item--production">
+                                <img class="works-path__item-img" src="images/graphic-tool.svg" alt="icon">
+                                <h6 class="works-path__item-title">Готовая работа</h6>
+                                <p class="works__item-text">
+                                    Поздравляю, теперь ты обладатель великолепной работы!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="works-path__item works-path__item--measuring">
+                            <img class="works-path__item-img" src="images/graphic-tool.svg" alt="icon">
+                            <h6 class="works-path__item-title">Эскиз</h6>
+                            <p class="works__item-text">
+                                Через некоторое время ты получишь от меня эскиз, который мы согласуем. Это будет служить скелетом для будущей работы.
+                                Это будет последний шанс ввести поправки! 
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </section>
+
+            <div class="gallery">
+                <div class="container-fluid">
+                    <div class="gallery__buttons">
+                        <button class="gallery__btn" data-filter=".category-a">1</button>
+                        <button class="gallery__btn" data-filter=".category-b">2</button>
+                        <button class="gallery__btn" data-filter=".category-c">3</button>
+                        <button class="gallery__btn" data-filter=".category-d">4</button>
+                        <button class="gallery__btn" data-filter=".category-e">5</button>
+                    </div>
+                    <div class="gallery__inner">
+                        <div class="gallery__items mix category-a">
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/1.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/2.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/3.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/4.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/5.jpg" alt="images">
+                            </a>
+                        </div>
+
+                        <div class="gallery__items mix category-b">
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/6.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/7.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/8.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/9.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/10.jpg" alt="images">
+                            </a>
+                        </div>
+
+                        <div class="gallery__items mix category-c">
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/11.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/12.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/13.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/14.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/15.jpg" alt="images">
+                            </a>
+                        </div>
+
+                        <div class="gallery__items mix category-d">
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/16.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/17.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/18.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/1.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/2.jpg" alt="images">
+                            </a>
+                        </div>
+
+                        <div class="gallery__items mix category-e">
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/3.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/4.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/5.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/6.jpg" alt="images">
+                            </a>
+                            <a class="gallery__item" href="gallery.html" target="_blank">
+                                <img src="images/gallery/7.jpg" alt="images">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </main>
 
@@ -121,7 +342,7 @@
                             <p class="footer__info-text">
                                 Отправьте мне свою почту, если хотите со мной связаться
                             </p>
-                            <a class="footer__info-email" href="mailto:annawilldraw@gmail.com">
+                            <a class="info-email" href="mailto:annawilldraw@gmail.com">
                                 annawilldraw@gmail.com
                             </a>
                             <form class="footer__form">
@@ -131,34 +352,28 @@
                         </div>
                         <ul class="footer__social">
                             <li class="footer__social-item">
-                                <a class="footer__social-link footer__social-link--facebook" href="#">Facebook</a>
+                                <a class="footer__social-link footer__social-link--vk" href="https://vk.com/iamannan" target="_blank">VK</a>
                             </li>
                             <li class="footer__social-item">
-                                <a class="footer__social-link footer__social-link--instagram" href="#">Instagram</a>
+                                <a class="footer__social-link footer__social-link--whatsapp" href="https://wa.me/79996238878" target="_blank">WhatsApp</a>
                             </li>
                             <li class="footer__social-item">
-                                <a class="footer__social-link footer__social-link--pinterest" href="#">Pinterest</a>
-                            </li>
-                            <li class="footer__social-item">
-                                <a class="footer__social-link footer__social-link--whatsapp" href="#">WhatsApp</a>
-                            </li>
-                            <li class="footer__social-item">
-                                <a class="footer__social-link footer__social-link--youtube" href="#">YouTube</a>
+                                <a class="footer__social-link footer__social-link--tg" href="https://t.me/annawilldraw" target="_blank">Telegram</a>
                             </li>
                         </ul>
                         <nav class="footer__menu">
                             <ul class="footer__menu-list">
                                 <li class="footer__menu-item">
-                                    <a class="footer__menu-link" href="#">Доставка</a>
+                                    <a class="footer__menu-link" href="#" target="_blank">Доставка</a>
                                 </li>
                                 <li class="footer__menu-item">
-                                    <a class="footer__menu-link" href="#">FAQ</a>
+                                    <a class="footer__menu-link" href="#" target="_blank">FAQ</a>
                                 </li>
                                 <li class="footer__menu-item">
-                                    <a class="footer__menu-link" href="#">Помощь</a>
+                                    <a class="footer__menu-link" href="#" target="_blank">Помощь</a>
                                 </li>
                                 <li class="footer__menu-item">
-                                    <a class="footer__menu-link" href="#">Дополнительно</a>
+                                    <a class="footer__menu-link" href="#" target="_blank">Дополнительно</a>
                                 </li>
                             </ul>
                         </nav>

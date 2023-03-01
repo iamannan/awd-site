@@ -19,7 +19,7 @@
                     <nav class="menu">
                         <ul class="menu__list">
                             <li class="menu__list-item">
-                                <a class="menu__list-link menu__list-link--active" href="about.html" target="_blank">Обо мне</a>
+                                <a class="menu__list-link" href="about.html" target="_blank">Обо мне</a>
                             </li>
                             <li class="menu__list-item">
                                 <a class="menu__list-link" href="gallery.html" target="_blank">Галерея</a>
@@ -35,7 +35,7 @@
                                 <a class="menu__list-link" href="order.html" target="_blank">Заказ</a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="contacts.html" target="_blank">Контакты</a>
+                                <a class="menu__list-link menu__list-link--active" href="contacts.html" target="_blank">Контакты</a>
                             </li>
                         </ul>
                     </nav>
@@ -69,37 +69,50 @@
         </header>
 
         <main class="main">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1869.0425082766758!2d55.98962065459508!3d54.720417394235966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d93bcb3e27510b%3A0x9479563045995ee0!2z0JbQuNC70L7QuSDQutC-0LzQv9C70LXQutGBICLQo9C80L3Ri9C5INC00L7QvCI!5e0!3m2!1sru!2sru!4v1676276101011!5m2!1sru!2sru" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 
-            <section class="about">
-                <div class="about__prev">
-                    <div class="container">
-                        <h2 class="about__prev-title">
-                            Обо мне
-                        </h2>
+            <section class="contact">
+                <div class="container">
+                    <h3 div class="contact__title">
+                        Контакты
+                    </h3>
+                    <ul class="contact__social">
+                        <li class="contact__social-item">
+                            <a class="contact__social-link" href="#" target="_blank">
+                                <img class="contact__social-link" src="images/vk.svg" alt="VK">
+                            </a>
+                        </li>
+                        <li class="contact__social-item">
+                            <a class="contact__social-link" href="#" target="_blank">
+                                <img class="contact__social-link" src="images/whatsapp.svg" alt="WhatsApp">
+                            </a>
+                        </li>
+                        <li class="contact__social-item">
+                            <a class="contact__social-link" href="#" target="_blank">
+                                <img class="contact__social-link" src="images/tg.svg" alt="Telegram">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="contact__box">
+                        <a class="contact__phone" href="tel:+79996238878">+7-999-623-88-78</a>
+                        <div class="contact__st">Бакалинская 64/1 "Умный дом"</div>
+                        <a class="info-email" href="mailto:annawilldraw@gmail.com">
+                            annawilldraw@gmail.com
+                        </a>
                     </div>
-                </div>
-                <div class="about__content">
-                    <div class="container">
-                        <h3 class="about__title">
-                            Давай познакомимся?
-                        </h3>
-                            <div class="about__text">
-                                <p>
-                                    Меня зовут Аня, мне 22 года и я проживаю в Уфе. 
-                                </p>
-                                <p>
-                                    Увлекаюсь цифровой иллюстрацией с 2021 года.
-                                </p>
-                            </div>
-                    </div>
-                </div>
-                <div class="about__popup">
-                    <a class="about_popup-play" data-fancybox href="https://youtu.be/pO-lz8HQvRA">
-                        <img class="about-popup-imgbtn" src="images/play-button.svg" alt="play button">
-                    </a>
+                    <p class="contact__text">
+                        У Вас есть какие-либо вопросы или предложения? Заполните форму ниже:
+                    </p>
+                    <form class="contact__form">
+                        <input class="contact__form-input" placeholder="Имя" type="text">
+                        <input class="contact__form-input" placeholder="Email" type="email">
+                        <textarea class="contact__form-area" placeholder="Сообщение" ></textarea>
+                        <button class="contact__form-btn" type="submit">Отправить</button>
+                    </form>
                 </div>
             </section>
-
 
         </main>
 
